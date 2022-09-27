@@ -1,0 +1,645 @@
+:root {
+  ---pr-color: #048853
+}
+
+* {
+  z-index: 2;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3fff4;
+}
+
+/* ! Navbar */
+.navbar {
+  z-index: 3;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.navbar .button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: white;
+  color: var(---pr-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.navbar .button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Navbar color */
+.nav-color {
+  background-color: #007245;
+  transition: .1s;
+}
+
+.bg-transparent {
+  transition: .1s;
+}
+
+/* ! Hero */
+#hero {
+  background: -o-linear-gradient(290deg, var(---pr-color), black);
+  background: linear-gradient(160deg, var(---pr-color), black);
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-tagline h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button-lg-primary a {
+  text-decoration: none;
+  color: var(---pr-color);
+}
+
+.accsent-img {
+  z-index: 1;
+}
+
+/* ! Layanan */
+#layanan {
+  padding: 100px 0 80px;
+}
+
+#layanan h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(---pr-color);
+}
+
+#layanan .sub-tittle {
+  font-size: 18px;
+  color: black;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 40px;
+  -webkit-box-shadow: 0 0 7px 3px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, .05);
+
+  -webkit-transition: all .2s ease-in;
+
+  -o-transition: all .2s ease-in;
+
+  transition: all .2s ease-in;
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(---pr-color);
+  border-radius: 50%;
+
+  -webkit-transition: all .1s ease-in;
+
+  -o-transition: all .1s ease-in;
+
+  transition: all .1s ease-in;
+}
+
+.card-layanan h3 {
+  color: var(---pr-color);
+  font-size: 24px;
+
+  -webkit-transition: all .2s ease-in;
+
+  -o-transition: all .2s ease-in;
+
+  transition: all .2s ease-in;
+
+}
+
+.card-layanan p {
+  color: black;
+  font-size: 14px;
+
+  -webkit-transition: all .3s ease-in;
+
+  -o-transition: all .3s ease-in;
+
+  transition: all .3s ease-in;
+}
+
+/* ! Hover */
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background: -o-linear-gradient(290deg, var(---pr-color), rgba(0, 0, 0, .8));
+  background: linear-gradient(160deg, var(---pr-color), rgba(0, 0, 0, .8));
+  padding: 40px;
+  -webkit-box-shadow: 0 0 7px 3px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, .05);
+  cursor: pointer;
+
+  -webkit-transition: all .2s ease-in;
+
+  -o-transition: all .2s ease-in;
+
+  transition: all .2s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+  background-color: white;
+  -webkit-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3 {
+  color: white;
+  font-size: 24px;
+
+  -webkit-transition: all .2s ease-in;
+
+  -o-transition: all .2s ease-in;
+
+  transition: all .2s ease-in;
+}
+
+.card-layanan:hover p {
+  color: white;
+  font-size: 14px;
+
+  -webkit-transition: all .2s ease-in;
+
+  -o-transition: all .2s ease-in;
+
+  transition: all .2s ease-in;
+}
+
+/* ! Search */
+#search {
+  background-image: url(../assets/Img-search.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#search h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  color: white;
+}
+
+#search p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  color: white;
+}
+
+#search .input-cari {
+  height: 70px;
+}
+
+#search .input-cari:focus {
+  border: none;
+}
+
+.input-cari .button-secondary {
+  width: 200px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, .8);
+  color: var(---pr-color);
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-primary {
+  height: 70px;
+  background-color: var(---pr-color);
+  color: white;
+  border: none;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 0 10px 10px 0;
+}
+
+.input-cari .form-control {
+  height: 70px;
+  background-color: rgba(255, 255, 255, .8);
+  color: var(---pr-color) !important;
+}
+
+.input-cari .form-control::-webkit-input-placeholder {
+  color: var(---pr-color);
+}
+
+.input-cari .form-control::-moz-placeholder {
+  color: var(---pr-color);
+}
+
+.input-cari .form-control:-ms-input-placeholder {
+  color: var(---pr-color);
+}
+
+.input-cari .form-control::-ms-input-placeholder {
+  color: var(---pr-color);
+}
+
+.input-cari .form-control::placeholder {
+  color: var(---pr-color);
+}
+
+.input-cari .form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 0;
+}
+
+.nav-tabs .radius-start {
+  border-radius: 10px 0 0 0;
+}
+
+.nav-tabs .radius-end {
+  border-radius: 0 10px 0 0;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgba(255, 255, 255, .8);
+  color: var(---pr-color);
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link {
+  color: black;
+  border: none;
+}
+
+/* ! Rekomendasi card */
+#rekomendasi {
+  padding-top: 5rem;
+}
+
+#rekomendasi h2 {
+  color: var(---pr-color);
+}
+
+.card {
+  height: 460px;
+  width: 95%;
+  /* border: none; */
+  cursor: pointer;
+}
+
+.card-body h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: .8rem;
+}
+
+.card-body p {
+  color: #141414;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card:hover {
+  background: -o-linear-gradient(290deg, var(---pr-color) 0%, #007245 60%, #000 100%);
+  background: linear-gradient(160deg, var(---pr-color) 0%, #007245 60%, #000 100%);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+  -webkit-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+  border: none;
+}
+
+.card:hover .card-body h4,
+.card:hover .card-body p {
+  color: white;
+  -webkit-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body p span {
+  color: orange !important;
+  -webkit-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.card-fasilitas {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+}
+
+.card-fasilitas span {
+  font-weight: 500;
+  margin-top: 18px;
+  color: black;
+}
+
+.card-fasilitas p {
+  font-size: 12px;
+  color: black;
+  margin-top: 5px;
+}
+
+/* ! Fitur */
+#fitur {
+  padding-top: 5rem;
+}
+
+#fitur h2 {
+  color: var(---pr-color);
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.button-fitur {
+  width: 238px;
+  height: 63px;
+  background-color: var(---pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.card-fitur h5 {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.card-fitur span {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card-fitur h6 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-fitur button {
+  background-color: var(---pr-color);
+  color: white;
+  border: none;
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-fitur .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  -webkit-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+  background-color: rgba(0, 0, 0, .6);
+  opacity: 1;
+}
+
+/* Button */
+.button-arrow-left img,
+.button-arrow-right img {
+  width: 60px;
+  height: 60px;
+}
+
+.button-arrow-left {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: var(---pr-color);
+  padding: 0;
+  margin-left: -50px;
+}
+
+.button-arrow-right {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: var(---pr-color);
+  padding: 0;
+  margin-right: -35px;
+}
+
+/* ! Kontak */
+#kontak {
+  background-image: url(../assets/kontak-img.png);
+  margin-top: 158px;
+  background-size: cover;
+  background-position: center;
+}
+
+#kontak .overlay {
+  background: rgba(0, 0, 0, .5);
+}
+
+#kontak .container {
+  padding: 148px 0;
+}
+
+#kontak h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: white;
+  width: 450px;
+}
+
+.kontak {
+  color: white;
+  margin: 19px 0 21px;
+}
+
+#kontak h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+
+.kontak i {
+  font-size: 19px;
+}
+
+.kontak a {
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 18px;
+  width: 332px;
+  display: inline-block;
+}
+
+.link-rumah-impian {
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 0 0 0 var(---pr-color);
+  box-shadow: inset 0 0 0 0 var(---pr-color);
+  color: vavar(---pr-color);
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  -webkit-transition: color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  transition: color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  -o-transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+}
+
+.link-rumah-impian:hover {
+  -webkit-box-shadow: inset 130px 0 0 0 var(---pr-color);
+  box-shadow: inset 130px 0 0 0 var(---pr-color);
+  color: white;
+}
+
+.card-kontak {
+  width: 100%;
+  height: 445px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 52px 48px;
+}
+
+.card-kontak h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: var(---pr-color);
+  text-align: center;
+}
+
+.card-kontak .form-control {
+  background-color: #c4c4c4;
+  height: 75px;
+  border-radius: unset;
+}
+
+.card-kontak .form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.card-kontak .form-floating label {
+  font-size: 16px;
+  line-height: 18px;
+  color: #717171;
+}
+
+.button-kontak {
+  width: 100%;
+  height: 75px;
+  background-color: var(---pr-color);
+  border: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+/* ! Footer */
+footer {
+  width: 100%;
+  height: 270px;
+  background-color: black;
+}
+
+.copyright {
+  bottom: 1%;
+  left: 50%;
+  color: white;
+  line-height: 21px;
+}
+
+footer a {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(---pr-color);
+}

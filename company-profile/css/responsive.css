@@ -1,0 +1,334 @@
+/* Tablet */
+@media (max-width: 922px) {
+
+  /* ! Hero */
+  .hero-tagline h1 {
+    font-size: 40px;
+  }
+
+  .img-hero {
+    height: 75%;
+  }
+
+  .button-lg-primary {
+    transform: scale(.89);
+    margin-left: -15px;
+  }
+
+  .hero-tagline p {
+    margin-bottom: 40px;
+  }
+
+  .hero-tagline a {
+    margin-left: -25px;
+  }
+
+  /* Layanan */
+  #layanan .sub-tittle {
+    font-size: 20px;
+  }
+
+  .card-layanan {
+    height: 230px;
+    padding: 20px;
+  }
+
+  .card-layanan h3 {
+    font-size: 30px;
+  }
+
+  .card-layanan p {
+    font-size: 16px;
+  }
+
+  .card-layanan:hover {
+    height: 230px;
+    padding: 20px;
+  }
+
+  .card-layanan:hover h3 {
+    font-size: 30px;
+  }
+
+  .card-layanan:hover p {
+    font-size: 16px;
+  }
+
+  .circle-icon img {
+    width: 50px;
+  }
+
+  /* ! Search */
+  #search h2 {
+    font-size: 40px;
+  }
+
+  #search p {
+    font-size: 20px;
+  }
+
+  .input-cari .button-secondary {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .input-cari .button-primary {
+    font-size: 24px;
+  }
+
+  .input-cari .form-control {
+    font-size: 14px;
+  }
+
+  /* ! Fitur */
+  #fitur h2 {
+    font-size: 40px;
+  }
+
+  .button-fitur {
+    width: 100%;
+  }
+
+  /* ! Kontak */
+  #kontak h3 {
+    font-size: 30px;
+    line-height: 40px;
+    width: 400px;
+  }
+
+  .card-kontak {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+  }
+
+  .card-kontak h2 {
+    font-size: 28px;
+  }
+
+  .card-kontak .form-control {
+    height: 50px;
+  }
+
+  .button-kontak {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .copyright {
+    bottom: 0;
+    font-size: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ! Hero */
+  .hero-tagline h1 {
+    line-height: 40px;
+    font-size: 35px;
+  }
+
+  .hero-tagline p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  .button-lg-primary {
+    transform: scale(.8);
+    margin-left: -20px;
+  }
+
+  .hero-tagline a {
+    margin-left: -30px;
+  }
+
+  .img-hero {
+    width: 75%;
+    object-fit: cover;
+  }
+
+  .mt-negative {
+    margin-top: 120px !important;
+  }
+
+  /* ! Layanan */
+  #layanan h2 {
+    font-size: 30px;
+  }
+
+  #layanan .sub-tittle {
+    font-size: 16px;
+  }
+
+  .card-layanan {
+    width: 90%;
+    height: 289px;
+    padding: 20px;
+    margin: 0 auto 30px;
+    box-sizing: border-box;
+  }
+
+  .card-layanan p {
+    font-size: 14px;
+  }
+
+  .circle-icon img {
+    width: 45px;
+  }
+
+  .card-layanan:hover {
+    width: 90%;
+    height: 288px;
+    padding: 20px;
+  }
+
+  .card-layanan:hover p {
+    font-size: 14px;
+  }
+
+  /* ! Search */
+  #search h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  #search p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .input-cari .button-secondary {
+    width: 50%;
+    height: 50px;
+    border-radius: unset;
+  }
+
+  .input-cari .button-primary {
+    height: 50px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 0 0 10px 0;
+  }
+
+  .input-cari .form-control {
+    height: 50px !important;
+    border-radius: 0 0 0 10px !important;
+  }
+
+  .nav-tabs .radius-start,
+  .nav-tabs .radius-end {
+    border-radius: 0px;
+  }
+
+  .nav-tabs #jual-tab {
+    border-radius: 10px 0 0 0;
+  }
+
+  .nav-tabs #sewa-tab {
+    border-radius: 0 10px 0 0;
+  }
+
+  .nav-tabs #jual-tab,
+  .nav-tabs #sewa-tab {
+    width: calc(256px / 2);
+  }
+
+  .nav-tabs #property-baru-tab {
+    width: 256px;
+  }
+
+  /* ! Rekomendasi */
+  #rekomendasi .card {
+    transform: scale(.9);
+    margin-top: -18px;
+  }
+
+  /* ! Fitur */
+  #fitur h2 {
+    font-size: 35px;
+  }
+
+  .button-fitur {
+    transform: scale(.8);
+  }
+
+  #fitur .cards {
+    transform: scale(.8);
+  }
+
+  #fitur .container:first-child .row {
+    margin-bottom: -20px !important;
+  }
+
+  /* ! Kontak */
+  #kontak {
+    margin-top: 120px;
+  }
+
+  #kontak .container {
+    padding: 70px 0;
+  }
+
+  #kontak h3 {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .card-kontak {
+    height: 300px;
+    padding: 25px;
+  }
+
+  .card-kontak h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .card-kontak .form-control {
+    height: 40px;
+  }
+
+  .card-kontak .form-floating label {
+    font-size: 13px;
+  }
+
+  .button-kontak {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .kontak {
+    transform: scale(.8);
+    margin-left: -30px;
+  }
+
+  .kontak a {
+    font-size: 16px;
+  }
+
+  /* ! Footer */
+  footer {
+    height: 200px;
+  }
+
+  footer a {
+    font-size: 15px;
+  }
+
+  .copyright {
+    font-size: 10px;
+    bottom: -20px;
+    left: 55%;
+  }
+
+  .footer-logo {
+    width: 25px;
+    margin-right: -10px;
+  }
+}
